@@ -21,10 +21,13 @@ module.exports = {
 					dark: '#002B5C'
 				}
 			},
+			textShadow: {
+				h2: '4px 2px 0px rgba(255, 255, 255, 0.25)'
+			},
 			fontFamily: {
 				main: 'Poppins, sans-serif'
 			}
 		}
 	},
-	plugins: [require('tailwindcss-textshadow')]
+	plugins: [require('tailwindcss-textshadow'), require('@tailwindcss/line-clamp')]
 };
