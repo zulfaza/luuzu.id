@@ -5,6 +5,7 @@
 	import { darkMode } from '$lib/store/dark';
 	const loadDarkModeFromLocalStorage = () => {
 		if (!browser) return;
+		console.log(localStorage);
 		if (
 			localStorage.theme === 'dark' ||
 			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
@@ -15,8 +16,13 @@
 	loadDarkModeFromLocalStorage();
 	// update class on parent if darkmode change
 	$: if (browser) {
-		if ($darkMode) document.documentElement.classList.add('dark');
-		else document.documentElement.classList.remove('dark');
+		if ($darkMode) {
+			document.documentElement.classList.add('dark');
+			localStorage.setItem('theme', 'dark');
+		} else {
+			document.documentElement.classList.remove('dark');
+			localStorage.setItem('theme', 'light');
+		}
 	}
 </script>
 
