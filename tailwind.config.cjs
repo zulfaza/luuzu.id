@@ -19,6 +19,9 @@ module.exports = {
 				blue: {
 					DEFAULT: '#4C88B4',
 					dark: '#002B5C'
+				},
+				divider: {
+					DEFAULT: '#636363'
 				}
 			},
 			textShadow: {
@@ -30,5 +33,9 @@ module.exports = {
 			}
 		}
 	},
-	plugins: [require('tailwindcss-textshadow'), require('@tailwindcss/line-clamp')]
+	plugins: [
+		require('tailwindcss-textshadow'),
+		require('@tailwindcss/line-clamp'),
+		require('@tailwindcss/aspect-ratio')
+	]
 };

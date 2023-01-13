@@ -5,7 +5,6 @@
 	import { darkMode } from '$lib/store/dark';
 	const loadDarkModeFromLocalStorage = () => {
 		if (!browser) return;
-		console.log(localStorage);
 		if (
 			localStorage.theme === 'dark' ||
 			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)

@@ -26,7 +26,7 @@
 			<a href="/"> <Logo /></a>
 		</div>
 		<div class="md:flex gap-5 hidden">
-			{#each links as link}
+			{#each links as link (link.link)}
 				<a href={link.link}>{link.label}</a>
 			{/each}
 		</div>
