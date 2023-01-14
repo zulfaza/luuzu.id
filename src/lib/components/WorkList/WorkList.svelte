@@ -1,5 +1,6 @@
 <script>
 	import Button from '../Button.svelte';
+	import Heading2 from '../Typography/Heading2.svelte';
 	import WorkItem from './WorkItem.svelte';
 
 	const works = [
@@ -74,11 +75,7 @@
 
 <section class="py-10 container">
 	<div class="flex-sc gap-4 lg:gap-6 mb-4">
-		<h2
-			class="font-extrabold text-2xl md:text-4xl uppercase flex-shrink-0 text-shadow-h2 dark:text-shadow-h2-dark"
-		>
-			#my works
-		</h2>
+		<Heading2 title="#My Works" />
 		<div class="h-px w-full md:block hidden dark:bg-white bg-dark" />
 	</div>
 	<div class="flex md:flex-row flex-col gap-4 mb-12">

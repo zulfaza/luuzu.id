@@ -41,16 +41,18 @@
 	];
 </script>
 
-<footer class="w-full relative">
-	<div class="container flex-cc gap-5 mb-4">
+<footer class="w-full relative mt-10">
+	<div class="container flex-cc gap-5 mb-4 py-3">
 		{#each icons as icon}
-			{#if icon.type === 'link'}
-				<a href={icon.href} target="_blank" rel="noopener noreferrer">
-					<svelte:component this={icon.icon} />
-				</a>
-			{:else if icon.type === 'button'}
-				<ButtonWithPopup {icon} />
-			{/if}
+			<div class=" text-white text-opacity-50 transition-colors hover:text-opacity-70 ">
+				{#if icon.type === 'link'}
+					<a href={icon.href} target="_blank" rel="noopener noreferrer">
+						<svelte:component this={icon.icon} />
+					</a>
+				{:else if icon.type === 'button'}
+					<ButtonWithPopup {icon} />
+				{/if}
+			</div>
 		{/each}
 	</div>
 

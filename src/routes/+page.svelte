@@ -1,5 +1,6 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
+	import StoryList from '$lib/components/StoryList/StoryList.svelte';
 	import WorkList from '$lib/components/WorkList/WorkList.svelte';
 </script>
 
@@ -9,3 +10,4 @@
 
 <Header />
 <WorkList />
+<StoryList />
