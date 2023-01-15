@@ -1,4 +1,4 @@
-<svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<g clip-path="url(#clip0_90_621)">
 		<rect width="51" height="51" rx="25.5" fill="url(#paint0_linear_90_621)" />
 		<path d="M27.072 32.6H34.956V38H20.016V12.62H27.072V32.6Z" fill="white" />
