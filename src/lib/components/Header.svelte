@@ -10,7 +10,7 @@
 	<div class="w-full sm:max-w-md">
 		<Logo />
 	</div>
-	<div class=" absolute bottom-10">
-		<ChevronsDownIcon strokeWidth={0.75} size={'85'} />
+	<div class="animate-bounce absolute bottom-10">
+		<ChevronsDownIcon class="md:w-[85px] md:h-[85px] w-[35px] h-[35px]" strokeWidth={0.75} />
 	</div>
 </header>
