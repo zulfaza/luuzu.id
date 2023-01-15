@@ -7,7 +7,7 @@
 </svelte:head>
 
 <header class="flex-cc w-full pt-36 pb-20">
-	<div class=" max-w-md w-full h-full">
+	<div class=" text-dark dark:text-white max-w-md w-full h-full">
 		<MyWorks />
 	</div>
 </header>

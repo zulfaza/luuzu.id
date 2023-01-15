@@ -44,7 +44,9 @@
 <footer class="w-full relative mt-10">
 	<div class="container flex-cc gap-5 mb-4 py-3">
 		{#each icons as icon}
-			<div class=" text-white text-opacity-50 transition-colors hover:text-opacity-70 ">
+			<div
+				class=" text-dark dark:text-white text-opacity-50 transition-colors hover:text-opacity-70 "
+			>
 				{#if icon.type === 'link'}
 					<a href={icon.href} target="_blank" rel="noopener noreferrer">
 						<svelte:component this={icon.icon} />
