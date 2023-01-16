@@ -5,7 +5,9 @@
 	export let work: WorkType;
 </script>
 
-<div class="border w-full border-divider bg-dark-200 rounded-[10px] overflow-hidden">
+<div
+	class="border w-full dark:border-divider border-opacity-30 border-gray-400 bg-gray-200 text-dark-200 dark:text-white dark:bg-dark-200 rounded-[10px] overflow-hidden"
+>
 	<div class=" aspect-w-16 aspect-h-9 w-full">
 		<img src={work.thumbnail} alt={`Preview ${work.title}`} />
 	</div>
@@ -13,7 +15,7 @@
 		<div class=" absolute w-full left-0 top-0 h-1 bg-gradient-to-r from-[#4C88B4] to-[#002B5C]" />
 		<div class="mb-3">
 			<a
-				class="text-white font-extrabold uppercase text-lg md:text-4xl truncate w-full block"
+				class="font-extrabold uppercase text-lg md:text-4xl truncate w-full block"
 				href={`/works/${work.id}`}
 			>
 				{work.title}

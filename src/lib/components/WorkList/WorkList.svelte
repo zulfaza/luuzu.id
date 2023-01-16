@@ -12,16 +12,16 @@
 				{
 					name: 'Open source',
 					border: '#3C9F3C',
-					background: '#3C9F3C99'
+					background: '#0a6d27'
 				},
 				{
 					name: 'typescript',
 					border: '#2B7489',
-					background: '#2B748999'
+					background: '#0f5360'
 				},
 				{
 					name: 'nextjs',
-					background: '#00050699',
+					background: '#0b0f10',
 					border: '#798183'
 				}
 			]
@@ -34,16 +34,16 @@
 				{
 					name: 'Open source',
 					border: '#3C9F3C',
-					background: '#3C9F3C99'
+					background: '#0a6d27'
 				},
 				{
 					name: 'typescript',
 					border: '#2B7489',
-					background: '#2B748999'
+					background: '#0f5360'
 				},
 				{
 					name: 'nextjs',
-					background: '#00050699',
+					background: '#0b0f10',
 					border: '#798183'
 				}
 			]
@@ -56,16 +56,16 @@
 				{
 					name: 'Open source',
 					border: '#3C9F3C',
-					background: '#3C9F3C99'
+					background: '#0a6d27'
 				},
 				{
 					name: 'typescript',
 					border: '#2B7489',
-					background: '#2B748999'
+					background: '#0f5360'
 				},
 				{
 					name: 'nextjs',
-					background: '#00050699',
+					background: '#0b0f10',
 					border: '#798183'
 				}
 			]
@@ -74,7 +74,7 @@
 </script>
 
 <section class="py-10 container">
-	<div class="flex-sc gap-4 lg:gap-6 mb-4">
+	<div class="flex-sc gap-4 lg:gap-6 mb-4 dark:text-white text-dark-200">
 		<Heading2 title="#My Works" />
 		<div class="h-px w-full md:block hidden dark:bg-white bg-dark" />
 	</div>
