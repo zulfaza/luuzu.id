@@ -14,7 +14,7 @@
 
 <button on:click={handleClick} class="relative">
 	{#if popup}
-		<div out:fade in:fly class=" absolute -top-5 -right-16 text-sm bg-[#4C88B4] rounded-full px-4">
+		<div out:fade|global in:fly|global class=" absolute -top-5 -right-16 text-sm bg-[#4C88B4] rounded-full px-4">
 			copied
 		</div>
 	{/if}
