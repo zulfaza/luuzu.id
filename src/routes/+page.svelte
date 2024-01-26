@@ -1,13 +1,2 @@
-<script>
-	import Header from '$lib/components/Header.svelte';
-	import StoryList from '$lib/components/StoryList/StoryList.svelte';
-	import WorkList from '$lib/components/WorkList/WorkList.svelte';
-</script>
-
-<svelte:head>
-	<title>Luuzu.dev</title>
-</svelte:head>
-
-<Header />
-<WorkList />
-<StoryList />
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
