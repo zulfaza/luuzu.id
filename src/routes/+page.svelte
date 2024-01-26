@@ -1,2 +1,9 @@
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
-Copyright © 2024 Tailwind Labs Inc.
+<script>
+	import Header from '$lib/components/Header.svelte';
+</script>
+
+<svelte:head>
+	<title>Luuzu.dev</title>
+</svelte:head>
+
+<Header />
